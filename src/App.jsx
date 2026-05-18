@@ -1,13 +1,8 @@
-import './index.css';
+import './index.css'
+import AppRoutes from './routes/Approutes'
 
 function App() {
-  return (
-    <div className="min-h-screen bg-black text-white flex items-center justify-center">
-      <h1 className="text-4xl font-bold">
-        React Resume Project
-      </h1>
-    </div>
-  )
+  return <AppRoutes />
 }
 
 export default App
